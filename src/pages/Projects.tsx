@@ -6,54 +6,31 @@ import { CTASection } from "@/components/CTASection";
 
 const allProjects = [
   {
-    title: "E-Commerce Platform",
-    description: "A full-featured online store with cart management, checkout flow, and payment integration. Built with React, TypeScript, and Stripe.",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=450&fit=crop",
-    tags: ["React", "TypeScript", "Stripe", "Tailwind"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-    featured: true,
-  },
+  title: "MorLabs Protocol",
+  description: "A decentralized protocol website showcasing blockchain infrastructure, token utilities, and protocol architecture. Built with a focus on performance, clarity, and modern UI to communicate complex Web3 concepts effectively.",
+  image: "https://res.cloudinary.com/ddurtcl0v/image/upload/v1766072114/Screen_Shot_2025-12-18_at_7.13.28_AM_cxffec.png",
+  tags: ["Web3", "Blockchain", "Frontend", "UI/UX"],
+  liveUrl: "https://morlabsprotocol.com/",
+  featured: true,
+}
+,
   {
-    title: "Task Management App",
-    description: "Real-time collaborative task manager with drag-and-drop, team features, and analytics dashboard.",
-    image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=450&fit=crop",
-    tags: ["Next.js", "Prisma", "WebSocket"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "AI Writing Assistant",
-    description: "Smart writing tool powered by GPT-4 with grammar checking, tone adjustment, and content suggestions.",
-    image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=450&fit=crop",
-    tags: ["React", "OpenAI", "Node.js"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "Finance Dashboard",
-    description: "Interactive financial analytics dashboard with real-time data visualization and portfolio tracking.",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=450&fit=crop",
-    tags: ["React", "D3.js", "GraphQL"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "Social Media App",
-    description: "Modern social platform with posts, comments, real-time notifications, and user profiles.",
-    image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&h=450&fit=crop",
-    tags: ["Next.js", "Supabase", "Tailwind"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
-  {
-    title: "Weather Application",
-    description: "Beautiful weather app with location-based forecasts, interactive maps, and severe weather alerts.",
-    image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=800&h=450&fit=crop",
-    tags: ["React", "Weather API", "Geolocation"],
-    liveUrl: "https://example.com",
-    githubUrl: "https://github.com",
-  },
+  title: "GKG Investment Holdings",
+  description: "A corporate investment firm landing page with a clean, trust-focused design highlighting services, portfolio divisions, and company values. Built to present financial expertise and executive presence with clarity and modern UI principles.",
+  image: "https://res.cloudinary.com/ddurtcl0v/image/upload/v1766072102/Screen_Shot_2025-12-18_at_7.34.15_AM_ezxu2m.png",
+  tags: ["Corporate", "UI/UX", "Responsive Design"],
+  liveUrl: "https://gkginvestmentholdings.com/",
+  featured: false,
+},
+
+{
+  title: "SpacePay Landing Page",
+  description: "A modern landing page for a fintech remittance app showcasing core services, value propositions, and user trust elements. Built with a clean layout, engaging visuals, and responsive design to communicate SpacePay’s financial solutions effectively.",
+  image: "https://res.cloudinary.com/ddurtcl0v/image/upload/v1766073442/Screen_Shot_2025-12-18_at_7.54.47_AM_i2t3om.png",
+  tags: ["Fintech", "Responsive Design", "UI/UX"],
+  liveUrl: "https://spacepay-landing-page.vercel.app/",
+  featured: true,
+},
 ];
 
 const Projects = () => {
@@ -87,7 +64,8 @@ const Projects = () => {
           {/* Projects Grid */}
           <section className="py-16">
             <div className="container mx-auto px-6">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="grid grid-cols-1 md:grid-cols-1
+               gap-6">
                 {allProjects.map((project) => (
                   <ProjectCard key={project.title} {...project} />
                 ))}

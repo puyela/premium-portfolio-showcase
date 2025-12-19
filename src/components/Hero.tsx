@@ -29,7 +29,7 @@ export function Hero() {
               </Link>
             </Button>
             <Button asChild variant="hero-outline" size="xl">
-              <a href="/resume.pdf" download>
+              <a href="#" download>
                 Download CV
                 <Download size={18} />
               </a>

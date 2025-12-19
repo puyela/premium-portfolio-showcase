@@ -51,7 +51,7 @@ const About = () => {
                     About Me
                   </p>
                   <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                    Hi, I'm Alex — a Frontend Developer
+                    Hi, I'm Isaac — a Frontend Developer
                   </h1>
                   <div className="space-y-4 text-muted-foreground">
                     <p>
@@ -68,12 +68,12 @@ const About = () => {
                 <div className="relative">
                   <div className="aspect-square rounded-2xl overflow-hidden bg-secondary">
                     <img
-                      src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=600&fit=crop"
+                      src="https://res.cloudinary.com/ddurtcl0v/image/upload/v1766173848/WhatsApp_Image_2025-12-18_at_5.59.28_AM_1_ca18yy.jpg"
                       alt="Developer portrait"
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-accent/20 rounded-2xl -z-10" />
+                  <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-accent/40 rounded-2xl -z-10" />
                 </div>
               </div>
             </div>

@@ -8,8 +8,7 @@ interface ProjectCardProps {
   image: string;
   tags: string[];
   liveUrl?: string;
-  githubUrl?: string;
-  featured?: boolean;
+   featured?: boolean;
 }
 
 export function ProjectCard({
@@ -18,8 +17,7 @@ export function ProjectCard({
   image,
   tags,
   liveUrl,
-  githubUrl,
-  featured = false,
+   featured = false,
 }: ProjectCardProps) {
   return (
     <div
@@ -57,15 +55,7 @@ export function ProjectCard({
               </a>
             </Button>
           )}
-          {githubUrl && (
-            <Button asChild variant="outline" size="sm">
-              <a href={githubUrl} target="_blank" rel="noopener noreferrer">
-                Code
-                <Github size={14} />
-              </a>
-            </Button>
-          )}
-        </div>
+           </div>
       </div>
     </div>
   );

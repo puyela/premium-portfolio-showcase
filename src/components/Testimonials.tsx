@@ -3,21 +3,21 @@ import { Quote } from "lucide-react";
 const testimonials = [
   {
     quote: "One of the most talented frontend developers I've worked with. Delivers exceptional work consistently.",
-    author: "Sarah Johnson",
+    author: " Athkins Johnson",
     role: "Product Manager",
-    company: "Tech Innovators Inc.",
+    company: "Afric nigeria.",
   },
   {
     quote: "Incredible attention to detail and a deep understanding of modern web technologies. Highly recommended.",
-    author: "Michael Chen",
+    author: "charles chinedu",
     role: "CTO",
-    company: "StartupXYZ",
+    company: "Promild tech",
   },
   {
     quote: "Transformed our design vision into a pixel-perfect, performant application. A true professional.",
-    author: "Emily Davis",
+    author: "Linda Mwangi",
     role: "Design Lead",
-    company: "Digital Solutions",
+    company: "delish kitchen",
   },
 ];
 

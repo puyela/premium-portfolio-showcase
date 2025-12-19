@@ -17,11 +17,11 @@ export function CTASection() {
               Ready to start your project?
             </h2>
             <p className="text-primary-foreground/80">
-              Let's collaborate to create something exceptional. I'm available for freelance projects and full-time opportunities.
+              Let's collaborate to create something exceptional. I'm available for freelance projects part-time and full-time opportunities.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
               <Button asChild variant="accent" size="xl">
-                <a href="mailto:hello@developer.com">
+                <a href="mailto:isaaccletus52@gmail.com">
                   Hire Me Now
                   <ArrowRight size={18} />
                 </a>
@@ -32,7 +32,7 @@ export function CTASection() {
                 size="xl"
                 className="border-primary-foreground/30 text-primary-foreground bg-transparent hover:bg-primary-foreground/10 hover:text-primary-foreground"
               >
-                <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+                <a href="https://calendly.com/puyela" target="_blank" rel="noopener noreferrer">
                   Schedule a Call
                 </a>
               </Button>

@@ -8,10 +8,10 @@ import { CTASection } from "@/components/CTASection";
 const workExperience = [
   {
     title: "Senior Frontend Developer",
-    company: "Tech Innovators Inc.",
-    period: "2022 - Present",
+    company: "Blockspace technologies",
+    period: "2024 - Present",
     responsibilities: [
-      "Lead frontend architecture for a SaaS platform serving 50K+ users",
+      "Lead frontend architecture for a SaaS platform serving 1K+ users",
       "Mentor team of 5 junior developers",
       "Improved application performance by 40%",
       "Implemented CI/CD pipelines and testing strategies",
@@ -19,10 +19,10 @@ const workExperience = [
   },
   {
     title: "Frontend Developer",
-    company: "Digital Solutions Agency",
+    company: "Guru innovations hub",
     period: "2020 - 2022",
     responsibilities: [
-      "Developed responsive web applications for 20+ clients",
+      "Developed responsive web applications for 15+ clients",
       "Collaborated with designers to implement pixel-perfect UIs",
       "Built reusable component libraries",
       "Optimized SEO and accessibility across projects",
@@ -30,7 +30,7 @@ const workExperience = [
   },
   {
     title: "Junior Developer",
-    company: "StartupXYZ",
+    company: "Promild Technologies",
     period: "2019 - 2020",
     responsibilities: [
       "Built and maintained user interfaces using React",
@@ -44,17 +44,13 @@ const workExperience = [
 const education = [
   {
     degree: "B.S. Computer Science",
-    school: "State University",
+    school: "UNiversity of Calabar",
     period: "2015 - 2019",
     details: "Focus on Software Engineering and Web Technologies",
   },
 ];
 
-const certifications = [
-  "AWS Certified Cloud Practitioner",
-  "Meta Front-End Developer Certificate",
-  "Google UX Design Certificate",
-];
+
 
 const technicalSkills = {
   Languages: ["TypeScript", "JavaScript", "HTML5", "CSS3", "SQL"],
@@ -204,24 +200,6 @@ const Resume = () => {
                         </div>
                       ))}
                     </div>
-                  </section>
-
-                  {/* Certifications */}
-                  <section className="p-6 bg-card rounded-lg border border-border">
-                    <div className="flex items-center gap-3 mb-6">
-                      <div className="w-10 h-10 rounded-lg bg-accent/10 flex items-center justify-center">
-                        <Award className="text-accent" size={20} />
-                      </div>
-                      <h2 className="text-xl font-bold">Certifications</h2>
-                    </div>
-                    <ul className="space-y-3">
-                      {certifications.map((cert) => (
-                        <li key={cert} className="text-sm flex items-start gap-2">
-                          <span className="text-accent mt-0.5">✓</span>
-                          {cert}
-                        </li>
-                      ))}
-                    </ul>
                   </section>
                 </div>
               </div>
