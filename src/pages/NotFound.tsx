@@ -16,7 +16,7 @@ const NotFound = () => {
         <p className="text-8xl font-bold text-accent">404</p>
         <h1 className="text-3xl md:text-4xl font-bold">Page Not Found</h1>
         <p className="text-muted-foreground max-w-md mx-auto">
-          Sorry, the page you're looking for doesn't exist or has been moved.
+           YOOOOOOO!!!!!!!! the page you're looking for does notttttt exist or has been moved .
         </p>
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 pt-4">
           <Button asChild variant="hero">
