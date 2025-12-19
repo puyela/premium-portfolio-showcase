@@ -2,29 +2,29 @@ import { Helmet } from "react-helmet-async";
 import { Navbar } from "@/components/Navbar";
 import { Footer } from "@/components/Footer";
 import { ContactForm } from "@/components/ContactForm";
-import { Github, Linkedin, Twitter, Calendar } from "lucide-react";
+import { Github, Linkedin, Twitter, Calendar, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const socialLinks = [
   {
     icon: Github,
     name: "GitHub",
-    handle: "@developer",
-    href: "https://github.com",
+    handle: "@puyela",
+    href: "https://github.com/puyela/",
     description: "Check out my open source contributions",
   },
   {
     icon: Linkedin,
     name: "LinkedIn",
-    handle: "/in/developer",
-    href: "https://linkedin.com",
+    handle: "/isaac-cletus",
+    href: "https://www.linkedin.com/in/isaac-cletus",
     description: "Connect with me professionally",
   },
   {
-    icon: Twitter,
-    name: "Twitter",
-    handle: "@developer",
-    href: "https://twitter.com",
+    icon: X,
+    name: "X",
+    handle: "@Puyela",
+    href: "https://x.com/Puyela_",
     description: "Follow for tech insights and updates",
   },
 ];
@@ -56,7 +56,7 @@ const Contact = () => {
                   Whether you have a project in mind, want to discuss an opportunity, or just want to connect — I'd love to hear from you.
                 </p>
                 <Button asChild variant="outline" size="lg">
-                  <a href="https://calendly.com" target="_blank" rel="noopener noreferrer">
+                  <a href="https://calendly.com/puyela" target="_blank" rel="noopener noreferrer">
                     <Calendar size={18} />
                     Schedule a Call
                   </a>
