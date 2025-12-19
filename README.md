@@ -5,7 +5,7 @@ A professional portfolio template designed to showcase your projects, skills, an
 
 ## Features
 
-- Clean and modern design
+- Clean and modern designs
 - Responsive layout
 - Easy to customize
 - Showcase multiple projects
