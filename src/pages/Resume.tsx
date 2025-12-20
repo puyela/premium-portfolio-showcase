@@ -90,9 +90,9 @@ const Resume = () => {
                   </p>
                 </div>
                 <Button asChild variant="hero" size="lg">
-                  <a href="/resume.pdf" download>
+                  <a href="/CV/Isaac_Cletus_Frontend_Engineer_CV.pdf" download>
                     <Download size={18} />
-                    Download PDF
+                    Download Resume
                   </a>
                 </Button>
               </div>
