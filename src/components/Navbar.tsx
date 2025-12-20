@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
+import ThemeToggle from "@/components/ThemeToggle";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -43,6 +44,7 @@ export function Navbar() {
             <Button asChild variant="hero" size="sm">
               <a href="mailto:hello@developer.com">Hire Me</a>
             </Button>
+            <ThemeToggle />
           </div>
 
           {/* Mobile Menu Button */}
@@ -77,6 +79,9 @@ export function Navbar() {
               <Button asChild variant="hero" size="sm" className="w-fit">
                 <a href="mailto:hello@developer.com">Hire Me</a>
               </Button>
+              <div className="pt-2">
+                <ThemeToggle />
+              </div>
             </div>
           </div>
         )}
