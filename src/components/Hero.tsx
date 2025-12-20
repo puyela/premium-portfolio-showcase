@@ -29,8 +29,8 @@ export function Hero() {
               </Link>
             </Button>
             <Button asChild variant="hero-outline" size="xl">
-              <a href="#" download>
-                Download CV
+              <a href="/CV/Isaac_Cletus_Frontend_Engineer_CV.pdf" download>
+                Download Resume
                 <Download size={18} />
               </a>
             </Button>
