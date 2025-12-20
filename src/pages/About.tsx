@@ -68,7 +68,7 @@ const About = () => {
                 <div className="relative">
                   <div className="aspect-square rounded-2xl overflow-hidden bg-secondary">
                     <img
-                      src="https://res.cloudinary.com/ddurtcl0v/image/upload/v1766173848/WhatsApp_Image_2025-12-18_at_5.59.28_AM_1_ca18yy.jpg"
+                      src="https://res.cloudinary.com/ddurtcl0v/image/upload/v1766247025/ISAAC_cropped_zcohx3.jpg"
                       alt="Developer portrait"
                       className="w-full h-full object-cover"
                     />
